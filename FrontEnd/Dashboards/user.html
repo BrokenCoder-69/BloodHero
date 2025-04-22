@@ -12,63 +12,7 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
       rel="stylesheet"
     />
-    <style>
-      body {
-        background-color: #f8f9fa;
-        font-family: "Segoe UI", sans-serif;
-      }
-
-      .sidebar {
-        height: 100vh;
-        background-color: #b71c1c;
-        padding-top: 1rem;
-        position: fixed;
-        width: 240px;
-        color: white;
-      }
-
-      .sidebar a {
-        color: white;
-        text-decoration: none;
-        display: block;
-        padding: 12px 20px;
-        border-radius: 6px;
-        transition: 0.3s;
-      }
-
-      .sidebar a:hover {
-        background-color: #f44336;
-      }
-
-      .sidebar .active {
-        background-color: #d32f2f;
-      }
-
-      .content {
-        margin-left: 240px;
-        padding: 2rem;
-      }
-
-      .navbar {
-        margin-left: 240px;
-        background-color: #fff;
-        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-      }
-
-      .card {
-        border-left: 5px solid #b71c1c;
-        border-radius: 12px;
-        transition: 0.3s;
-      }
-
-      .card:hover {
-        box-shadow: 0 0 15px rgba(0, 0, 0, 0.15);
-      }
-
-      .card-title {
-        font-weight: bold;
-      }
-    </style>
+    <link rel="stylesheet" href="user.css">
   </head>
   <body>
     <!-- Sidebar -->
@@ -83,6 +27,8 @@
       >
       <a href="#"><i class="fas fa-history me-2"></i> Donation History</a>
       <a href="#"><i class="fas fa-cogs me-2"></i> Settings</a>
+      <a href="./Properties/postRequest.html"><i class="fas fa-envelope-open-text me-2"></i> Post Request</a>
+      <a href="#"><i class="fas fa-hand-holding-droplet me-2"></i> Blood Request</a>
       <a href="#" id="logoutLink" class="">
         <i class="fas fa-sign-out-alt me-2"></i> Logout
       </a>
